@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Masuk</title>
+  <link rel="stylesheet" href="stylelogin.css">
+  <link rel="shortcut icon" href="delayota.jpeg">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Masuk</h2>
+    <form action="../index.html" onsubmit="return validateLogin()">
+      <div class="input-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="input-group">
+        <label for="password">sandi:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">masuk</button>
+    </form>
+    <p id="error-message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
